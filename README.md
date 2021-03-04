@@ -7,7 +7,7 @@ It is very easy to use this service with the Pushover API.
 API Documentation: [https://pushover.net/api](https://pushover.net/api)
 
 #### Requirenments
-python-dotenv==0.15.0
+python-dotenv==0.15.0\
 requests==2.25.1
 
 #### Environment Variables

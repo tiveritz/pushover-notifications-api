@@ -1,16 +1,18 @@
-## Executing
+## Pushover Real-Time Notifications
 Pushover is a service to send and receive real-time notifications on
 Android, iPhone, iPad, and Desktop (Android Wear and Apple Watch, too!)
 It is very easy to use this service with the Pushover API.
-<br /><br />
+<br />
 
 API Documentation: [https://pushover.net/api](https://pushover.net/api)
+<br />
 
-#### Requirenments
+### Requirenments
 python-dotenv==0.15.0\
 requests==2.25.1
+<br />
 
-#### Environment Variables
+### Environment Variables
 Include the following environment variables into your .env file
   * PUSHOVER_API_URL=https://api.pushover.net/1/messages.json
   * PUSHOVER_USER_KEY -> You will find this key on the device app you want

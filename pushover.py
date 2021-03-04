@@ -5,7 +5,10 @@ import requests
 import json
 
 
-# Documentation: https://pushover.net/api
+# TODO
+# - Beautify
+# - EMERGENCY requires additional post fields, not implemented yet
+
 
 class Priority(Enum):
     LOWEST = -2     # does not trigger any sound or vibration

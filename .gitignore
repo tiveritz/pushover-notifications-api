@@ -1,7 +1,6 @@
 *.env
+*.cfg
 /bin
 /lib
 .vscode
 /__pycache__
-
-pyvenv.cfg

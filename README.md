@@ -7,11 +7,6 @@ It is very easy to use this service with the Pushover API.
 API Documentation: [https://pushover.net/api](https://pushover.net/api)
 <br />
 
-### Requirenments
-python-dotenv==0.15.0\
-requests==2.25.1
-<br />
-
 ### Environment Variables
 Include the following environment variables into your .env file
   * PUSHOVER_API_URL=https://api.pushover.net/1/messages.json

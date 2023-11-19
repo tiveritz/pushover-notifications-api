@@ -15,7 +15,7 @@ class PushoverNotification:
         self.api_url = api_url
         self.api_token = api_token
         self.user_key = user_key
-        self.emergency_retry = 600    # 10 Munutes
+        self.emergency_retry = 600    # 10 Minutes
         self.emergency_expire = 3600  # 1 Hour
 
     def notify(self, title, message, priority=Priority.NORMAL):
